@@ -8,8 +8,18 @@
 <link rel="stylesheet" type="text/css" href="./stylesheet.css">
 
 <script src="./r_box.js"></script>
+<script src="./mercXmercY.js"></script>
+<script src="./minMaxPoint.js"></script>
+<script src="./minMaxLineString.js"></script>
+<script src="./minMaxPolygon.js"></script>
+<script src="./minMaxMultiPolygon.js"></script>
+<script src="./drawPoint.js"></script>
+<script src="./drawLineString.js"></script>
+<script src="./drawPolygon.js"></script>
+<script src="./drawMultiPolygon.js"></script>
 
-<!-- <p><a href="./processing.php"> processing </a><p> -->
+
+<p id="processingLinkEl"><a href="./processing.php"> processing </a><p>
 
 <div id="mainContainer" style="display: flex; flex-direction: row;">
 <div>
@@ -44,18 +54,29 @@ window.addEventListener("load", function() {
     
     let features = FeatureCollection.features;
     
+    // START OF SIDEBAR
+    
+    let box_width;
+    let box_height;
+    
     for (let i = 0; i < features.length; i++) {
       
       addGeometryMinMax(feature_=features[i]);
+     
 
-      // START OF SIDEBAR
       
 
       if (window.innerWidth < 500) {
         myFeatureList.style.display = "none";
+        processingLinkEl.style.display = "none";
+        box_width = window.innerWidth*0.95;
+        box_height = window.innerWidth*0.95;
       }
+
       if (window.innerWidth > 500) {
       
+        box_width = window.innerWidth*0.4;
+        box_height = window.innerWidth*0.4;
         
         let div = document.createElement("div");
         div.style.cursor = "default";
@@ -68,18 +89,21 @@ window.addEventListener("load", function() {
         
         div.addEventListener("click", function() {
            obj = features.filter(f => f["properties"]["NAME"] === features[i]["properties"]["NAME"])[0];
-           console.log(obj);
-           // phase = false;
-           abc(obj_=obj, phase_=false);
+           // console.log(obj);
+           abc(obj_=obj);
            geometryNameOutputEl.innerHTML = obj["properties"]["NAME"];
            phase = false;
         }); // closing onclick
+        
+        
       }
-      // END OF SIDEBAR
-      
-    }
 
-   
+      
+    } // closing i-loop
+
+    // END OF SIDEBAR
+    
+    
     let box = new Box();
     let ctr = box.RETURN_CONTAINER();
     container.appendChild(ctr);
@@ -87,8 +111,8 @@ window.addEventListener("load", function() {
     
     ctr.style.margin = "0px";
     
-    console.log(window.innerWidth);
-    box.RESIZE(window.innerWidth*0.95, window.innerWidth*0.95);
+
+    box.RESIZE(box_width, box_height);
     
     let phase;
 
@@ -128,8 +152,9 @@ window.addEventListener("load", function() {
       let parentFeature = features.filter(item => item["properties"]["NAME"] === parentName)[0];
       drawFeature(b_=box, feature_=parentFeature);
     }
-
     drawFeature(b_=box, feature_=obj);
+    
+    
     geometryNameOutputEl.innerHTML = "?";
     phase = true;
     
@@ -162,7 +187,7 @@ window.addEventListener("load", function() {
       for (let i = 0; i < parents.length; i++) {
         let parent = parents[i];
         let parentFeature = features.filter(item => item["properties"]["NAME"] === parent)[0];
-        console.log(parentFeature);
+        // console.log(parentFeature);
         if (parentFeature.xmax > displayRange.xmax) {displayRange.xmax = parentFeature.xmax;}
         if (parentFeature.xmin < displayRange.xmin) {displayRange.xmin = parentFeature.xmin;}
         if (parentFeature.ymax > displayRange.ymax) {displayRange.ymax = parentFeature.ymax;}
@@ -203,7 +228,7 @@ window.addEventListener("load", function() {
       }
       
       
-      drawFeature(b_=box, feature_=obj);
+      drawFeature(b_=box, feature_=obj, selected_=true);
       geometryNameOutputEl.innerHTML = "?";
       phase = true;
       
@@ -220,21 +245,6 @@ window.addEventListener("load", function() {
      */
      
      function abc(obj_) {
-       
-      /*
-      
-      let obj = obj_;
-      if (obj_ == null) {
-        let index = index = Math.floor(Math.random()*features.length);
-        obj = features[index];
-      }
-      
-      if (phase) {
-        geometryNameOutputEl.innerHTML = obj["properties"]["NAME"];
-        phase = false;
-        return;
-      }
-      */
 
       console.log(obj["properties"]["NAME"].toUpperCase());
 
@@ -291,7 +301,8 @@ window.addEventListener("load", function() {
         drawFeature(b_=box, feature_=parentFeature);
       }
       
-      drawFeature(b_=box, feature_=obj);
+      drawFeature(b_=box, feature_=obj, selected_=true);
+        
       geometryNameOutputEl.innerHTML = "?";
       phase = true;
      }; // closing abc
@@ -303,33 +314,111 @@ window.addEventListener("load", function() {
 
 
 
-function drawFeature(b_, feature_) {
+function drawFeature(b_, feature_, selected_=false) {
 
-  let zoomLevel = 2;
+  // console.log(selected_);
   
-  // console.log(feature_["properties"]["NAME"] + " : " + feature_["geometry"]["type"]);
-
   if (feature_["geometry"]["type"] == "Point") {
-    drawPoint(b_, feature_);
+    
+    if (feature_["properties"]["TYPE"] == "Location") {
+    
+      if (selected_) {
+        drawPoint(b_, feature_, obj_={
+          "LINE_WIDTH":2,
+          "FILL_STYLE":"#fc0e",
+          "STROKE_STYLE":"#fc0e"
+        });
+        return;
+      }
+      
+      drawPoint(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#224477aa",
+        "STROKE_STYLE":"#0099ff33"
+      });
+      return;
+    }
+
   }
   
   if (feature_["geometry"]["type"] == "LineString") {
-    //b_.CLEAR_CANVAS();
-    drawLineString(b_, feature_);
+    
+    if (feature_["properties"]["TYPE"] == "River") {
+    
+    if (selected_) {
+      drawLineString(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#fc0e",
+        "STROKE_STYLE":"#fc0e"
+      });
+      return;
+    }
+    
+    
+      drawLineString(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#0066cc55",
+        "STROKE_STYLE":"#0066cc55"
+      });
+      return;
+    }
+    
   }
   
   if (feature_["geometry"]["type"] == "Polygon") {
-    //b_.CLEAR_CANVAS();
-    //b_.RANGE_X(feature_.xDisplayRangeMin, feature_.xDisplayRangeMax);
-    //b_.RANGE_Y(feature_.yDisplayRangeMin, feature_.yDisplayRangeMax);
-    drawPolygon(b_, feature_);
+    
+    if (feature_["properties"]["TYPE"] == "Lake") {
+      drawPolygon(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#0099ff33",
+        "STROKE_STYLE":"#0099ff33"
+      });
+      return;
+    }
+    
+    if (selected_) {
+      drawPolygon(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#fc07",
+        "STROKE_STYLE":"#fc07"
+      });
+      return;
+    }
+
+    drawPolygon(b_, feature_, obj_={
+      "LINE_WIDTH":2,
+      "FILL_STYLE":"#0703",
+      "STROKE_STYLE":"#0703"
+    });
+    
   } // closing if-Polygon
 
   if (feature_["geometry"]["type"] == "MultiPolygon") {
-    //b_.CLEAR_CANVAS();
-    //b_.RANGE_X(feature_.xDisplayRangeMin, feature_.xDisplayRangeMax);
-    //b_.RANGE_Y(feature_.yDisplayRangeMin, feature_.yDisplayRangeMax);
-    drawMultiPolygon(b_, feature_);
+  
+    if (feature_["properties"]["TYPE"] == "Lake") {
+      drawMultiPolygon(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#0099ff33",
+        "STROKE_STYLE":"#0099ff33"
+      });
+      return;
+    }
+    
+    if (selected_) {
+      drawMultiPolygon(b_, feature_, obj_={
+        "LINE_WIDTH":2,
+        "FILL_STYLE":"#fc07",
+        "STROKE_STYLE":"#fc07"
+      });
+      return;
+    }
+    
+    drawMultiPolygon(b_, feature_, obj_={
+      "LINE_WIDTH":2,
+      "FILL_STYLE":"#0703",
+      "STROKE_STYLE":"#0703"
+    });
+    
   }
   
 }; // closing fn
@@ -354,283 +443,5 @@ function addGeometryMinMax(feature_) {
 
 }; // closing fn
 
-function minMaxPolygon(feature_) {
-  
-  let zoomLevel = 2;
-
-  feature_.xmin = 99999;
-  feature_.xmax = -9999;
-  feature_.ymin = 99999;
-  feature_.ymax = -9999;
-  
-  let coordinates = feature_["geometry"]["coordinates"][0];
-
-  for (let i = 0; i < coordinates.length; i++) {
-    let x = mercX(lon_=coordinates[i][0], zoomx_=zoomLevel);
-    let y = mercY(lat_=coordinates[i][1], zoomy_=zoomLevel);
-    if (x > feature_.xmax) {feature_.xmax = x;}
-    if (x < feature_.xmin) {feature_.xmin = x;}
-    if (y > feature_.ymax) {feature_.ymax = y;}
-    if (y < feature_.ymin) {feature_.ymin = y;}
-  } // closing i-loop
-  
-  let xspan = feature_.xmax - feature_.xmin;
-  let yspan = feature_.ymax - feature_.ymin;
-  feature_.xbuffer = 0;
-  feature_.ybuffer = 0;
-   
-  if (xspan > yspan) {
-    feature_.xbuffer = xspan*0.2;
-    feature_.ybuffer = xspan*1.2 - yspan;
-  }
-  
-  if (xspan <= yspan) {
-    feature_.ybuffer = yspan*0.2;
-    feature_.xbuffer = yspan*1.2 - xspan;
-  }
-  
-  feature_.xDisplayRangeMin = feature_.xmin - feature_.xbuffer;
-  feature_.xDisplayRangeMax = feature_.xmax + feature_.xbuffer;
-  feature_.yDisplayRangeMin = feature_.ymin - feature_.ybuffer;
-  feature_.yDisplayRangeMax = feature_.ymax + feature_.ybuffer;
-  
-}; // closing fn
-
-
-function drawPolygon(b_, feature_) {
-  
-  let zoomLevel = 2;
-  let points = [];
-  let coordinates = feature_["geometry"]["coordinates"][0];
-
-  for (let i = 0; i < coordinates.length; i++) {
-    let x = mercX(lon_=coordinates[i][0], zoomx_=zoomLevel);
-    let y = mercY(lat_=coordinates[i][1], zoomy_=zoomLevel);
-    points.push({
-      "x":x,
-      "y":y
-    });
-  } // closing i-loop
-
-  b_.LINE_WIDTH(3);
-  b_.FILL_STYLE("#0099ff33");
-  b_.STROKE_STYLE("#0099ff33");
-  b_.SHAPE(points);
-  
-}; // closing fn
-
-
-
-function minMaxMultiPolygon(feature_) {
-  
-  let zoomLevel = 2;
-  let points = [];
-
-  feature_.xmin = 99999;
-  feature_.xmax = -9999;
-  feature_.ymin = 99999;
-  feature_.ymax = -9999;
-  
-  let coordinates = feature_["geometry"]["coordinates"];
-
-  
-  for (let i = 0; i < coordinates.length; i++) {
-
-    points[i] = [];
-    for (let j = 0; j < coordinates[i][0].length; j++) {
-      let x = mercX(lon_=coordinates[i][0][j][0], zoomx_=zoomLevel);
-      let y = mercY(lat_=coordinates[i][0][j][1], zoomy_=zoomLevel);
-      if (x > feature_.xmax) {feature_.xmax = x;}
-      if (x < feature_.xmin) {feature_.xmin = x;}
-      if (y > feature_.ymax) {feature_.ymax = y;}
-      if (y < feature_.ymin) {feature_.ymin = y;}
-      points[i].push({
-        "x":x,
-        "y":y
-      });
-    } // closing j-loop
-  } // closing i-loop
-  
-  // console.log(points);
-  
-  let xspan = feature_.xmax - feature_.xmin;
-  let yspan = feature_.ymax - feature_.ymin;
-  feature_.xbuffer = 0;
-  feature_.ybuffer = 0;
-   
-  if (xspan > yspan) {
-    feature_.xbuffer = xspan*0.2;
-    feature_.ybuffer = xspan*1.2 - yspan;
-  }
-  
-  if (xspan <= yspan) {
-    feature_.ybuffer = yspan*0.2;
-    feature_.xbuffer = yspan*1.2 - xspan;
-  }
-  
-  feature_.xDisplayRangeMin = feature_.xmin - feature_.xbuffer;
-  feature_.xDisplayRangeMax = feature_.xmax + feature_.xbuffer;
-  feature_.yDisplayRangeMin = feature_.ymin - feature_.ybuffer;
-  feature_.yDisplayRangeMax = feature_.ymax + feature_.ybuffer;
-
-  return;
-    
-}; // closing fn
-
-function drawMultiPolygon(b_, feature_) {
-  
-  let zoomLevel = 2;
-  let points = [];
-
-  let xmin = 99999;
-  let xmax = -9999;
-  let ymin = 99999;
-  let ymax = -9999;
-  
-  let coordinates = feature_["geometry"]["coordinates"];
-
-  for (let i = 0; i < coordinates.length; i++) {
-
-    points[i] = [];
-    for (let j = 0; j < coordinates[i][0].length; j++) {
-      let x = mercX(lon_=coordinates[i][0][j][0], zoomx_=zoomLevel);
-      let y = mercY(lat_=coordinates[i][0][j][1], zoomy_=zoomLevel);
-      points[i].push({
-        "x":x,
-        "y":y
-      });
-    } // closing j-loop
-  } // closing i-loop
-  
-  b_.LINE_WIDTH(3);
-  b_.FILL_STYLE("#0099ff33");
-  b_.STROKE_STYLE("#0099ff33");
-  for (let i = 0; i < points.length; i++) {
-    b_.SHAPE(points[i]);
-  }
-  return;
-}; // closing fn
-
-
-function minMaxLineString(feature_) {
-  
-  let zoomLevel = 2;
-
-  feature_.xmin = 99999;
-  feature_.xmax = -9999;
-  feature_.ymin = 99999;
-  feature_.ymax = -9999;
-  
-  let coordinates = feature_["geometry"]["coordinates"];
-
-  for (let i = 0; i < coordinates.length; i++) {
-    let x = mercX(lon_=coordinates[i][0], zoomx_=zoomLevel);
-    let y = mercY(lat_=coordinates[i][1], zoomy_=zoomLevel);
-    if (x > feature_.xmax) {feature_.xmax = x;}
-    if (x < feature_.xmin) {feature_.xmin = x;}
-    if (y > feature_.ymax) {feature_.ymax = y;}
-    if (y < feature_.ymin) {feature_.ymin = y;}
-  } // closing i-loop
-  
-  // console.log(points);
-  
-  feature_.xspan = feature_.xmax - feature_.xmin;
-  feature_.yspan = feature_.ymax - feature_.ymin;
-  feature_.xbuffer = 0;
-  feature_.ybuffer = 0;
-   
-  if (feature_.xspan > feature_.yspan) {
-    feature_.xbuffer = feature_.xspan*0.2;
-    feature_.ybuffer = feature_.xspan*1.2 - feature_.yspan;
-  }
-  
-  if (feature_.xspan <= feature_.yspan) {
-    feature_.ybuffer = feature_.yspan*0.2;
-    feature_.xbuffer = feature_.yspan*1.2 - feature_.xspan;
-  }
-  
-  feature_.xDisplayRangeMin = feature_.xmin - feature_.xbuffer;
-  feature_.xDisplayRangeMax = feature_.xmax + feature_.xbuffer;
-  feature_.yDisplayRangeMin = feature_.ymin - feature_.ybuffer;
-  feature_.yDisplayRangeMax = feature_.ymax + feature_.ybuffer;
-
-  return;
-}; // closing fn
-
-function drawLineString(b_, feature_) {
-  
-  let zoomLevel = 2;
-  let points = [];
-
-  let coordinates = feature_["geometry"]["coordinates"];
-
-  for (let i = 0; i < coordinates.length; i++) {
-    let x = mercX(lon_=coordinates[i][0], zoomx_=zoomLevel);
-    let y = mercY(lat_=coordinates[i][1], zoomy_=zoomLevel);
-    points.push({
-      "x":x,
-      "y":y
-    });
-  } // closing i-loop
-
-  b_.LINE_WIDTH(5);
-  b_.FILL_STYLE("#0066cc55");
-  b_.STROKE_STYLE("#0066cc55");
-  
-  b_.CONNECT_VALUES(points);
-  return;
-}; // closing fn
-
-
-function minMaxPoint(feature_) {
-  let zoomLevel = 2;
-  let coordinates = feature_["geometry"]["coordinates"];
-  let x = mercX(lon_=coordinates[0], zoomx_=zoomLevel);
-  let y = mercY(lat_=coordinates[1], zoomy_=zoomLevel);
-  feature_.xmin = x;
-  feature_.xmax = x;
-  feature_.ymin = y;
-  feature_.ymax = y;
-  return;  
-}; // closing fn
-
-function drawPoint(b_, feature_) {
-  
-  let zoomLevel = 2;
-
-  let coordinates = feature_["geometry"]["coordinates"];
-  let x = mercX(lon_=coordinates[0], zoomx_=zoomLevel);
-  let y = mercY(lat_=coordinates[1], zoomy_=zoomLevel);
-  
-  let point = {
-    "x":x,
-    "y":y
-  };
-
-  b_.LINE_WIDTH(4);
-  b_.FILL_STYLE("#224477aa");
-  b_.STROKE_STYLE("#0099ff33");
-  b_.RADIUS(4);
-  b_.POINT(point);
-  
-  // console.log(point);
-  
-  return;  
-}; // closing fn
-
-function mercX(lon_, zoomx_) {
-  let lon = lon_*Math.PI/180;
-  let a = (128/Math.PI) * Math.pow(2, zoomx_);
-  let b = lon + Math.PI;
-  return a*b;
-}
-
-function mercY(lat_, zoomy_) {
-  let lat = lat_*Math.PI/180;
-  let a = (128/Math.PI) * Math.pow(2, zoomy_);
-  let b = Math.tan(Math.PI/4 + lat/2);
-  let c = Math.PI - Math.log(b);
-  return -a*c;
-}
 
 </script>
