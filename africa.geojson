@@ -1,7 +1,6 @@
 {
     "type": "FeatureCollection",
     "features": [
-    { "type": "Feature", "id": 197, "properties": { "ScaleRank": 1, "LabelRank": 1, "FeatureCla": "Admin-0 countries", "SOVEREIGNT": "Somaliland", "SOV_A3": "SOL", "ADM0_DIF": 0.000000, "LEVEL": 2.000000, "TYPE": "Disputed", "ADMIN": "Somaliland", "ADM0_A3": "SOL", "GEOU_DIF": 0.000000, "GEOUNIT": "Somaliland", "GU_A3": "SOL", "SU_DIF": 0.000000, "SUBUNIT": "Somaliland", "SU_A3": "SOL", "NAME": "Somaliland", "ABBREV": "Solnd.", "POSTAL": "SL", "NAME_FORMA": "Republic of Somaliland", "TERR_": "", "NAME_SORT": "Somaliland", "MAP_COLOR": 2.000000, "POP_EST": 3500000.000000, "GDP_MD_EST": -99.000000, "FIPS_10_": -99.000000, "ISO_A2": "-99", "ISO_A3": "-99", "ISO_N3": -99.000000 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 48.938543, 11.258435 ], [ 48.938491, 10.982327 ], [ 48.938440, 10.714230 ], [ 48.938388, 10.433239 ], [ 48.938233, 9.973500 ], [ 48.938233, 9.807593 ], [ 48.938130, 9.564119 ], [ 48.938130, 9.451749 ], [ 48.793591, 9.232718 ], [ 48.616650, 8.964595 ], [ 48.428600, 8.679574 ], [ 48.272744, 8.443361 ], [ 48.126706, 8.222186 ], [ 47.978188, 7.997083 ], [ 47.637744, 7.997083 ], [ 47.305671, 7.997083 ], [ 46.978249, 7.997083 ], [ 46.919545, 8.026125 ], [ 46.644678, 8.118187 ], [ 46.296017, 8.234976 ], [ 45.863330, 8.379876 ], [ 45.555494, 8.482997 ], [ 45.226935, 8.590794 ], [ 44.893570, 8.700219 ], [ 44.632036, 8.786105 ], [ 44.306216, 8.893049 ], [ 44.022874, 8.986041 ], [ 43.983807, 9.008830 ], [ 43.826814, 9.150785 ], [ 43.620521, 9.337415 ], [ 43.581040, 9.340722 ], [ 43.482545, 9.379479 ], [ 43.394334, 9.480249 ], [ 43.303125, 9.609078 ], [ 43.218427, 9.770179 ], [ 43.181685, 9.879966 ], [ 43.068927, 9.926242 ], [ 43.014718, 10.012619 ], [ 42.912451, 10.140803 ], [ 42.841654, 10.203073 ], [ 42.816436, 10.257385 ], [ 42.783673, 10.369626 ], [ 42.725175, 10.491737 ], [ 42.669262, 10.567572 ], [ 42.656446, 10.600025 ], [ 42.659546, 10.621367 ], [ 42.763106, 10.786939 ], [ 42.809718, 10.846005 ], [ 42.862945, 10.903211 ], [ 42.906146, 10.960262 ], [ 42.922734, 10.999303 ], [ 43.048670, 11.194330 ], [ 43.159412, 11.365715 ], [ 43.245970, 11.499815 ], [ 43.441204, 11.346440 ], [ 43.631167, 11.035451 ], [ 43.852755, 10.784303 ], [ 44.158163, 10.550777 ], [ 44.279292, 10.471868 ], [ 44.386469, 10.430216 ], [ 44.942921, 10.436728 ], [ 45.337729, 10.649738 ], [ 45.695950, 10.803889 ], [ 45.816666, 10.835876 ], [ 46.024509, 10.793708 ], [ 46.253952, 10.781099 ], [ 46.460245, 10.734177 ], [ 46.565044, 10.746011 ], [ 46.973392, 10.925380 ], [ 47.230120, 11.099891 ], [ 47.404993, 11.174047 ], [ 47.473826, 11.174822 ], [ 47.712468, 11.112035 ], [ 48.019219, 11.139372 ], [ 48.438832, 11.290112 ], [ 48.572570, 11.320498 ], [ 48.674373, 11.322668 ], [ 48.903093, 11.254869 ], [ 48.938543, 11.258435 ] ] ] } },
         {
             "type": "Feature",
             "id": 62,
@@ -34,7 +33,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "DZ",
                 "ISO_A3": "DZA",
-                "ISO_N3": 12
+                "ISO_N3": 12,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -1589,7 +1589,11 @@
                 "SUBUNIT": "Angola",
                 "SU_A3": "AGO",
                 "NAME": "Angola",
-                "PARENTS": ["Namibia", "Zambia", "Democratic Republic of the Congo"],
+                "PARENTS": [
+                    "Namibia",
+                    "Zambia",
+                    "Democratic Republic of the Congo"
+                ],
                 "ABBREV": "Ang.",
                 "POSTAL": "AO",
                 "NAME_FORMA": "Republic of Angola",
@@ -2990,7 +2994,12 @@
                 "SUBUNIT": "Benin",
                 "SU_A3": "BEN",
                 "NAME": "Benin",
-                "PARENTS": ["Nigeria", "Niger", "Burkina Faso", "Togo"],
+                "PARENTS": [
+                    "Nigeria",
+                    "Niger",
+                    "Burkina Faso",
+                    "Togo"
+                ],
                 "ABBREV": "Benin",
                 "POSTAL": "BJ",
                 "NAME_FORMA": "Republic of Benin",
@@ -3621,7 +3630,12 @@
                 "SUBUNIT": "Togo",
                 "SU_A3": "TGO",
                 "NAME": "Blue Nile River",
-                "PARENTS": ["Ethiopia", "Sudan", "Khartoum", "Lake Tana"],
+                "PARENTS": [
+                    "Ethiopia",
+                    "Sudan",
+                    "Khartoum",
+                    "Lake Tana"
+                ],
                 "ABBREV": "Togo",
                 "POSTAL": "TG",
                 "NAME_FORMA": "Togolese Republic",
@@ -3869,7 +3883,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "BW",
                 "ISO_A3": "BWA",
-                "ISO_N3": 72
+                "ISO_N3": 72,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -4784,7 +4799,14 @@
                 "SUBUNIT": "Burkina Faso",
                 "SU_A3": "BFA",
                 "NAME": "Burkina Faso",
-                "PARENTS": ["Mali", "Niger", "Benin", "Togo", "Ghana", "Ivory Coast"],
+                "PARENTS": [
+                    "Mali",
+                    "Niger",
+                    "Benin",
+                    "Togo",
+                    "Ghana",
+                    "Ivory Coast"
+                ],
                 "ABBREV": "B.F.",
                 "POSTAL": "BF",
                 "NAME_FORMA": "",
@@ -5839,6 +5861,9 @@
                 "SUBUNIT": "Burundi",
                 "SU_A3": "BDI",
                 "NAME": "Burundi",
+                "PARENTS": [
+                    "Rwanda"
+                ],
                 "ABBREV": "Bur.",
                 "POSTAL": "BI",
                 "NAME_FORMA": "Republic of Burundi",
@@ -6204,7 +6229,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "CV",
                 "ISO_A3": "CPV",
-                "ISO_N3": 132
+                "ISO_N3": 132,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -6613,7 +6639,11 @@
                 "SUBUNIT": "Cameroon",
                 "SU_A3": "CMR",
                 "NAME": "Cameroon",
-                "PARENTS": ["Equitorial Guinea", "Gabon", "Republic of the Congo"],
+                "PARENTS": [
+                    "Equatorial Guinea",
+                    "Gabon",
+                    "Republic of the Congo"
+                ],
                 "ABBREV": "Cam.",
                 "POSTAL": "CM",
                 "NAME_FORMA": "Republic of Cameroon",
@@ -8056,7 +8086,12 @@
                 "SUBUNIT": "Central African Republic",
                 "SU_A3": "CAF",
                 "NAME": "Central African Republic",
-                "PARENTS": ["Chad", "Cameroon", "South Sudan", "Republic of the Congo"],
+                "PARENTS": [
+                    "Chad",
+                    "Cameroon",
+                    "South Sudan",
+                    "Republic of the Congo"
+                ],
                 "ABBREV": "C.A.R.",
                 "POSTAL": "CF",
                 "NAME_FORMA": "Central African Republic",
@@ -9395,7 +9430,14 @@
                 "SUBUNIT": "Chad",
                 "SU_A3": "TCD",
                 "NAME": "Chad",
-                "PARENTS": ["Niger", "Nigeria", "Libya", "Sudan", "Cameroon", "Central African Republic"],
+                "PARENTS": [
+                    "Niger",
+                    "Nigeria",
+                    "Libya",
+                    "Sudan",
+                    "Cameroon",
+                    "Central African Republic"
+                ],
                 "ABBREV": "Chad",
                 "POSTAL": "TD",
                 "NAME_FORMA": "Republic of Chad",
@@ -10613,7 +10655,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "KM",
                 "ISO_A3": "COM",
-                "ISO_N3": 174
+                "ISO_N3": 174,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -10806,7 +10849,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "CD",
                 "ISO_A3": "COD",
-                "ISO_N3": 180
+                "ISO_N3": 180,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -13284,7 +13328,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "DJ",
                 "ISO_A3": "DJI",
-                "ISO_N3": 262
+                "ISO_N3": 262,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -13539,7 +13584,10 @@
                 "SUBUNIT": "Egypt",
                 "SU_A3": "EGY",
                 "NAME": "Egypt",
-                "PARENTS": ["Libya", "Sudan"],
+                "PARENTS": [
+                    "Libya",
+                    "Sudan"
+                ],
                 "ABBREV": "Egypt",
                 "POSTAL": "EG",
                 "NAME_FORMA": "Arab Republic of Egypt",
@@ -14594,6 +14642,9 @@
                 "SUBUNIT": "Equatorial Guinea",
                 "SU_A3": "GNQ",
                 "NAME": "Equatorial Guinea",
+                "PARENTS": [
+                    "Gabon"
+                ],
                 "ABBREV": "Eq. G.",
                 "POSTAL": "GQ",
                 "NAME_FORMA": "Republic of Equatorial Guinea",
@@ -14921,7 +14972,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "ER",
                 "ISO_A3": "ERI",
-                "ISO_N3": 232
+                "ISO_N3": 232,
+                "PARENTS": ["Djibouti"]
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -15742,7 +15794,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "SZ",
                 "ISO_A3": "SWZ",
-                "ISO_N3": 748
+                "ISO_N3": 748,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -15936,7 +15989,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "ET",
                 "ISO_A3": "ETH",
-                "ISO_N3": 231
+                "ISO_N3": 231,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -17186,7 +17240,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "GA",
                 "ISO_A3": "GAB",
-                "ISO_N3": 266
+                "ISO_N3": 266,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -18312,7 +18367,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "GM",
                 "ISO_A3": "GMB",
-                "ISO_N3": 270
+                "ISO_N3": 270,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -18635,7 +18691,11 @@
                 "SUBUNIT": "Ghana",
                 "SU_A3": "GHA",
                 "NAME": "Ghana",
-                "PARENTS": ["Togo", "Burkina Faso", "Ivory Coast"],
+                "PARENTS": [
+                    "Togo",
+                    "Burkina Faso",
+                    "Ivory Coast"
+                ],
                 "ABBREV": "Ghana",
                 "POSTAL": "GH",
                 "NAME_FORMA": "Republic of Ghana",
@@ -19532,7 +19592,10 @@
                 "FORMER_NAME": "Swaziland",
                 "NAME": "Grand Ethiopian Renaissance Dam",
                 "PARENT": "Ethiopia",
-                "PARENTS": ["Ethiopia"],
+                "PARENTS": [
+                    "Ethiopia",
+                    "Blue Nile River"
+                ],
                 "ABBREV": "Swz.",
                 "POSTAL": "SZ",
                 "NAME_FORMA": "Kingdom of Swaziland",
@@ -19586,7 +19649,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "GN",
                 "ISO_A3": "GIN",
-                "ISO_N3": 324
+                "ISO_N3": 324,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -21020,7 +21084,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "GW",
                 "ISO_A3": "GNB",
-                "ISO_N3": 624
+                "ISO_N3": 624,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -21708,7 +21773,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "CI",
                 "ISO_A3": "CIV",
-                "ISO_N3": 384
+                "ISO_N3": 384,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -22921,7 +22987,13 @@
                 "SUBUNIT": "Kenya",
                 "SU_A3": "KEN",
                 "NAME": "Kenya",
-                "PARENTS": ["Tanzania", "Uganda", "Lake Victoria", "Ethiopia", "Somalia"],
+                "PARENTS": [
+                    "Tanzania",
+                    "Uganda",
+                    "Lake Victoria",
+                    "Ethiopia",
+                    "Somalia"
+                ],
                 "ABBREV": "Ken.",
                 "POSTAL": "KE",
                 "NAME_FORMA": "Republic of Kenya",
@@ -23866,7 +23938,9 @@
                 "GEOU_DIF": 0,
                 "GEOUNIT": "Khartoum",
                 "PARENT": "Sudan",
-                "PARENTS": ["Sudan"],
+                "PARENTS": [
+                    "Sudan"
+                ],
                 "GU_A3": "SWZ",
                 "SU_DIF": 0,
                 "SUBUNIT": "Swaziland",
@@ -23926,7 +24000,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "TG",
                 "ISO_A3": "TGO",
-                "ISO_N3": 768
+                "ISO_N3": 768,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -24036,7 +24111,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "TG",
                 "ISO_A3": "TGO",
-                "ISO_N3": 768
+                "ISO_N3": 768,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -24122,7 +24198,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "LS",
                 "ISO_A3": "LSO",
-                "ISO_N3": 426
+                "ISO_N3": 426,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -24461,6 +24538,9 @@
                 "SUBUNIT": "Liberia",
                 "SU_A3": "LBR",
                 "NAME": "Liberia",
+                "PARENTS": [
+                    "Sierra Leone"
+                ],
                 "ABBREV": "Liberia",
                 "POSTAL": "LR",
                 "NAME_FORMA": "Republic of Liberia",
@@ -25070,7 +25150,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "LY",
                 "ISO_A3": "LBY",
-                "ISO_N3": 434
+                "ISO_N3": 434,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -26129,6 +26210,9 @@
                 "SUBUNIT": "Madagascar",
                 "SU_A3": "MDG",
                 "NAME": "Madagascar",
+                "PARENTS": [
+                    "Mozambique"
+                ],
                 "ABBREV": "Mad.",
                 "POSTAL": "MG",
                 "NAME_FORMA": "Republic of Madagascar",
@@ -27256,7 +27340,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "MW",
                 "ISO_A3": "MWI",
-                "ISO_N3": 454
+                "ISO_N3": 454,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -28288,7 +28373,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "ML",
                 "ISO_A3": "MLI",
-                "ISO_N3": 466
+                "ISO_N3": 466,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -30226,7 +30312,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "MR",
                 "ISO_A3": "MRT",
-                "ISO_N3": 478
+                "ISO_N3": 478,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -31547,7 +31634,10 @@
                 "SUBUNIT": "Mauritius",
                 "SU_A3": "MUS",
                 "NAME": "Mauritius",
-                "PARENTS": ["Réunion", "Madagascar"],
+                "PARENTS": [
+                    "Réunion",
+                    "Madagascar"
+                ],
                 "ABBREV": "Mus.",
                 "POSTAL": "MU",
                 "NAME_FORMA": "Republic of Mauritius",
@@ -31666,7 +31756,11 @@
                 "SUBUNIT": "Cape Verde",
                 "SU_A3": "CPV",
                 "NAME": "Mayotte",
-                "PARENTS": ["Comoros", "Mozambique", "Madagascar"],
+                "PARENTS": [
+                    "Comoros",
+                    "Mozambique",
+                    "Madagascar"
+                ],
                 "ABBREV": "C.Vd.",
                 "POSTAL": "CV",
                 "NAME_FORMA": "Republic of Cape Verde",
@@ -31766,7 +31860,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "MA",
                 "ISO_A3": "MAR",
-                "ISO_N3": 504
+                "ISO_N3": 504,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -33280,7 +33375,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "MZ",
                 "ISO_A3": "MOZ",
-                "ISO_N3": 508
+                "ISO_N3": 508,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -35202,7 +35298,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "NA",
                 "ISO_A3": "NAM",
-                "ISO_N3": 516
+                "ISO_N3": 516,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -36184,7 +36281,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "NE",
                 "ISO_A3": "NER",
-                "ISO_N3": 562
+                "ISO_N3": 562,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -37246,7 +37344,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "NG",
                 "ISO_A3": "NGA",
-                "ISO_N3": 566
+                "ISO_N3": 566,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -38750,7 +38849,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "TG",
                 "ISO_A3": "TGO",
-                "ISO_N3": 768
+                "ISO_N3": 768,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "LineString",
@@ -38835,7 +38935,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "CG",
                 "ISO_A3": "COG",
-                "ISO_N3": 178
+                "ISO_N3": 178,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -40139,77 +40240,6 @@
         },
         {
             "type": "Feature",
-            "id": 2799,
-            "properties": {
-                "ScaleRank": 3,
-                "LabelRank": 3,
-                "FeatureCla": "Admin-0 countries",
-                "SOVEREIGNT": "France",
-                "SOV_A3": "FR1",
-                "ADM0_DIF": 1,
-                "LEVEL": 2,
-                "TYPE": "Dependency",
-                "ADMIN": "Saint Barthelemy",
-                "ADM0_A3": "BLM",
-                "GEOU_DIF": 0,
-                "GEOUNIT": "Réunion",
-                "GU_A3": "BLM",
-                "SU_DIF": 0,
-                "SUBUNIT": "Saint Barthelemy",
-                "SU_A3": "BLM",
-                "NAME": "Réunion",
-                "PARENTS": ["Mauritius", "Madagascar"],
-                "ABBREV": "St. B.",
-                "POSTAL": "BL",
-                "NAME_FORMA": "",
-                "TERR_": "Fr.",
-                "NAME_SORT": "Saint Barthelemy",
-                "MAP_COLOR": 11,
-                "POP_EST": 7448,
-                "GDP_MD_EST": 255,
-                "FIPS_10_": 0,
-                "ISO_A2": "BL",
-                "ISO_A3": "BLM",
-                "ISO_N3": 652
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            55.773659191810616,
-                            -21.36529678758117
-                        ],
-                        [
-                            55.48135510421729,
-                            -21.349395354483768
-                        ],
-                        [
-                            55.22070742864221,
-                            -21.07749582666105
-                        ],
-                        [
-                            55.42658763917408,
-                            -20.872894234619537
-                        ],
-                        [
-                            55.68298864670671,
-                            -20.944596772199645
-                        ],
-                        [
-                            55.8324198079631,
-                            -21.16330552858166
-                        ],
-                        [
-                            55.80781698282731,
-                            -21.330597431375047
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "id": 184,
             "properties": {
                 "ScaleRank": 1,
@@ -40229,7 +40259,12 @@
                 "SUBUNIT": "Rwanda",
                 "SU_A3": "RWA",
                 "NAME": "Rwanda",
-                "PARENTS": ["Burundi", "Democratic Republic of the Congo", "Uganda", "Tanzania"],
+                "PARENTS": [
+                    "Burundi",
+                    "Democratic Republic of the Congo",
+                    "Uganda",
+                    "Tanzania"
+                ],
                 "ABBREV": "Rwa.",
                 "POSTAL": "RW",
                 "NAME_FORMA": "Rwandese Republic",
@@ -40585,136 +40620,73 @@
         },
         {
             "type": "Feature",
-            "id": 201,
+            "id": 2799,
             "properties": {
-                "ScaleRank": 1,
-                "LabelRank": 1,
+                "ScaleRank": 3,
+                "LabelRank": 3,
                 "FeatureCla": "Admin-0 countries",
-                "SOVEREIGNT": "São Tomé and Príncipe",
-                "SOV_A3": "STP",
-                "ADM0_DIF": 0,
+                "SOVEREIGNT": "France",
+                "SOV_A3": "FR1",
+                "ADM0_DIF": 1,
                 "LEVEL": 2,
-                "TYPE": "Sovereign country",
-                "ADMIN": "Sao Tome and Principe",
-                "ADM0_A3": "STP",
+                "TYPE": "Dependency",
+                "ADMIN": "Saint Barthelemy",
+                "ADM0_A3": "BLM",
                 "GEOU_DIF": 0,
-                "GEOUNIT": "São Tomé and Príncipe",
-                "GU_A3": "STP",
+                "GEOUNIT": "Réunion",
+                "GU_A3": "BLM",
                 "SU_DIF": 0,
-                "SUBUNIT": "Sao Tome and Principe",
-                "SU_A3": "STP",
-                "NAME": "São Tomé and Príncipe",
-                "PARENTS": ["Cameroon"],
-                "ABBREV": "S.T.P.",
-                "POSTAL": "ST",
-                "NAME_FORMA": "Democratic Republic of Sao Tome and Principe",
-                "TERR_": "",
-                "NAME_SORT": "Sao Tome and Principe",
-                "MAP_COLOR": 7,
-                "POP_EST": 212679,
-                "GDP_MD_EST": 276.5,
+                "SUBUNIT": "Saint Barthelemy",
+                "SU_A3": "BLM",
+                "NAME": "Réunion",
+                "PARENTS": [
+                    "Mauritius",
+                    "Madagascar"
+                ],
+                "ABBREV": "St. B.",
+                "POSTAL": "BL",
+                "NAME_FORMA": "",
+                "TERR_": "Fr.",
+                "NAME_SORT": "Saint Barthelemy",
+                "MAP_COLOR": 11,
+                "POP_EST": 7448,
+                "GDP_MD_EST": 255,
                 "FIPS_10_": 0,
-                "ISO_A2": "ST",
-                "ISO_A3": "STP",
-                "ISO_N3": 678
+                "ISO_A2": "BL",
+                "ISO_A3": "BLM",
+                "ISO_N3": 652
             },
             "geometry": {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            [
-                                6.659987,
-                                0.120665
-                            ],
-                            [
-                                6.55684,
-                                0.047388
-                            ],
-                            [
-                                6.519737,
-                                0.066301
-                            ],
-                            [
-                                6.496999,
-                                0.117357
-                            ],
-                            [
-                                6.468164,
-                                0.227325
-                            ],
-                            [
-                                6.477569,
-                                0.280138
-                            ],
-                            [
-                                6.524284,
-                                0.34029
-                            ],
-                            [
-                                6.62588,
-                                0.400234
-                            ],
-                            [
-                                6.686962,
-                                0.404368
-                            ],
-                            [
-                                6.7498,
-                                0.325614
-                            ],
-                            [
-                                6.750007,
-                                0.243448
-                            ],
-                            [
-                                6.659987,
-                                0.120665
-                            ]
-                        ]
-                    ],
-                    [
+                            55.773659191810616,
+                            -21.36529678758117
+                        ],
                         [
-                            [
-                                7.423868,
-                                1.567708
-                            ],
-                            [
-                                7.386661,
-                                1.54156
-                            ],
-                            [
-                                7.342426,
-                                1.563574
-                            ],
-                            [
-                                7.330643,
-                                1.603365
-                            ],
-                            [
-                                7.387591,
-                                1.680156
-                            ],
-                            [
-                                7.414463,
-                                1.699121
-                            ],
-                            [
-                                7.436993,
-                                1.68305
-                            ],
-                            [
-                                7.450429,
-                                1.661966
-                            ],
-                            [
-                                7.45229,
-                                1.631115
-                            ],
-                            [
-                                7.423868,
-                                1.567708
-                            ]
+                            55.48135510421729,
+                            -21.349395354483768
+                        ],
+                        [
+                            55.22070742864221,
+                            -21.07749582666105
+                        ],
+                        [
+                            55.42658763917408,
+                            -20.872894234619537
+                        ],
+                        [
+                            55.68298864670671,
+                            -20.944596772199645
+                        ],
+                        [
+                            55.8324198079631,
+                            -21.16330552858166
+                        ],
+                        [
+                            55.80781698282731,
+                            -21.330597431375047
                         ]
                     ]
                 ]
@@ -40752,7 +40724,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "SN",
                 "ISO_A3": "SEN",
-                "ISO_N3": 686
+                "ISO_N3": 686,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -41766,7 +41739,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "SC",
                 "ISO_A3": "SYC",
-                "ISO_N3": 690
+                "ISO_N3": 690,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -41829,6 +41803,9 @@
                 "SUBUNIT": "Sierra Leone",
                 "SU_A3": "SLE",
                 "NAME": "Sierra Leone",
+                "PARENTS": [
+                    "Liberia"
+                ],
                 "ABBREV": "S.L.",
                 "POSTAL": "SL",
                 "NAME_FORMA": "Republic of Sierra Leone",
@@ -42392,7 +42369,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "SO",
                 "ISO_A3": "SOM",
-                "ISO_N3": 706
+                "ISO_N3": 706,
+                "PARENTS": ["Somaliland"]
             },
             "geometry": {
                 "type": "Polygon",
@@ -42976,6 +42954,365 @@
         },
         {
             "type": "Feature",
+            "id": 197,
+            "properties": {
+                "ScaleRank": 1,
+                "LabelRank": 1,
+                "FeatureCla": "Admin-0 countries",
+                "SOVEREIGNT": "Somaliland",
+                "SOV_A3": "SOL",
+                "ADM0_DIF": 0,
+                "LEVEL": 2,
+                "TYPE": "Disputed",
+                "ADMIN": "Somaliland",
+                "ADM0_A3": "SOL",
+                "GEOU_DIF": 0,
+                "GEOUNIT": "Somaliland",
+                "GU_A3": "SOL",
+                "SU_DIF": 0,
+                "SUBUNIT": "Somaliland",
+                "SU_A3": "SOL",
+                "NAME": "Somaliland",
+                "ABBREV": "Solnd.",
+                "POSTAL": "SL",
+                "NAME_FORMA": "Republic of Somaliland",
+                "TERR_": "",
+                "NAME_SORT": "Somaliland",
+                "MAP_COLOR": 2,
+                "POP_EST": 3500000,
+                "GDP_MD_EST": -99,
+                "FIPS_10_": -99,
+                "ISO_A2": "-99",
+                "ISO_A3": "-99",
+                "ISO_N3": -99,
+                "PARENTS": ["Somalia"]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            48.938543,
+                            11.258435
+                        ],
+                        [
+                            48.938491,
+                            10.982327
+                        ],
+                        [
+                            48.93844,
+                            10.71423
+                        ],
+                        [
+                            48.938388,
+                            10.433239
+                        ],
+                        [
+                            48.938233,
+                            9.9735
+                        ],
+                        [
+                            48.938233,
+                            9.807593
+                        ],
+                        [
+                            48.93813,
+                            9.564119
+                        ],
+                        [
+                            48.93813,
+                            9.451749
+                        ],
+                        [
+                            48.793591,
+                            9.232718
+                        ],
+                        [
+                            48.61665,
+                            8.964595
+                        ],
+                        [
+                            48.4286,
+                            8.679574
+                        ],
+                        [
+                            48.272744,
+                            8.443361
+                        ],
+                        [
+                            48.126706,
+                            8.222186
+                        ],
+                        [
+                            47.978188,
+                            7.997083
+                        ],
+                        [
+                            47.637744,
+                            7.997083
+                        ],
+                        [
+                            47.305671,
+                            7.997083
+                        ],
+                        [
+                            46.978249,
+                            7.997083
+                        ],
+                        [
+                            46.919545,
+                            8.026125
+                        ],
+                        [
+                            46.644678,
+                            8.118187
+                        ],
+                        [
+                            46.296017,
+                            8.234976
+                        ],
+                        [
+                            45.86333,
+                            8.379876
+                        ],
+                        [
+                            45.555494,
+                            8.482997
+                        ],
+                        [
+                            45.226935,
+                            8.590794
+                        ],
+                        [
+                            44.89357,
+                            8.700219
+                        ],
+                        [
+                            44.632036,
+                            8.786105
+                        ],
+                        [
+                            44.306216,
+                            8.893049
+                        ],
+                        [
+                            44.022874,
+                            8.986041
+                        ],
+                        [
+                            43.983807,
+                            9.00883
+                        ],
+                        [
+                            43.826814,
+                            9.150785
+                        ],
+                        [
+                            43.620521,
+                            9.337415
+                        ],
+                        [
+                            43.58104,
+                            9.340722
+                        ],
+                        [
+                            43.482545,
+                            9.379479
+                        ],
+                        [
+                            43.394334,
+                            9.480249
+                        ],
+                        [
+                            43.303125,
+                            9.609078
+                        ],
+                        [
+                            43.218427,
+                            9.770179
+                        ],
+                        [
+                            43.181685,
+                            9.879966
+                        ],
+                        [
+                            43.068927,
+                            9.926242
+                        ],
+                        [
+                            43.014718,
+                            10.012619
+                        ],
+                        [
+                            42.912451,
+                            10.140803
+                        ],
+                        [
+                            42.841654,
+                            10.203073
+                        ],
+                        [
+                            42.816436,
+                            10.257385
+                        ],
+                        [
+                            42.783673,
+                            10.369626
+                        ],
+                        [
+                            42.725175,
+                            10.491737
+                        ],
+                        [
+                            42.669262,
+                            10.567572
+                        ],
+                        [
+                            42.656446,
+                            10.600025
+                        ],
+                        [
+                            42.659546,
+                            10.621367
+                        ],
+                        [
+                            42.763106,
+                            10.786939
+                        ],
+                        [
+                            42.809718,
+                            10.846005
+                        ],
+                        [
+                            42.862945,
+                            10.903211
+                        ],
+                        [
+                            42.906146,
+                            10.960262
+                        ],
+                        [
+                            42.922734,
+                            10.999303
+                        ],
+                        [
+                            43.04867,
+                            11.19433
+                        ],
+                        [
+                            43.159412,
+                            11.365715
+                        ],
+                        [
+                            43.24597,
+                            11.499815
+                        ],
+                        [
+                            43.441204,
+                            11.34644
+                        ],
+                        [
+                            43.631167,
+                            11.035451
+                        ],
+                        [
+                            43.852755,
+                            10.784303
+                        ],
+                        [
+                            44.158163,
+                            10.550777
+                        ],
+                        [
+                            44.279292,
+                            10.471868
+                        ],
+                        [
+                            44.386469,
+                            10.430216
+                        ],
+                        [
+                            44.942921,
+                            10.436728
+                        ],
+                        [
+                            45.337729,
+                            10.649738
+                        ],
+                        [
+                            45.69595,
+                            10.803889
+                        ],
+                        [
+                            45.816666,
+                            10.835876
+                        ],
+                        [
+                            46.024509,
+                            10.793708
+                        ],
+                        [
+                            46.253952,
+                            10.781099
+                        ],
+                        [
+                            46.460245,
+                            10.734177
+                        ],
+                        [
+                            46.565044,
+                            10.746011
+                        ],
+                        [
+                            46.973392,
+                            10.92538
+                        ],
+                        [
+                            47.23012,
+                            11.099891
+                        ],
+                        [
+                            47.404993,
+                            11.174047
+                        ],
+                        [
+                            47.473826,
+                            11.174822
+                        ],
+                        [
+                            47.712468,
+                            11.112035
+                        ],
+                        [
+                            48.019219,
+                            11.139372
+                        ],
+                        [
+                            48.438832,
+                            11.290112
+                        ],
+                        [
+                            48.57257,
+                            11.320498
+                        ],
+                        [
+                            48.674373,
+                            11.322668
+                        ],
+                        [
+                            48.903093,
+                            11.254869
+                        ],
+                        [
+                            48.938543,
+                            11.258435
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "id": 239,
             "properties": {
                 "ScaleRank": 1,
@@ -42995,6 +43332,9 @@
                 "SUBUNIT": "South Africa",
                 "SU_A3": "ZAF",
                 "NAME": "South Africa",
+                "PARENTS": [
+                    "Namibia"
+                ],
                 "ABBREV": "S.Af.",
                 "POSTAL": "ZA",
                 "NAME_FORMA": "Republic of South Africa",
@@ -44824,7 +45164,8 @@
                 "FIPS_10_": -99,
                 "ISO_A2": "SS",
                 "ISO_A3": "SDS",
-                "ISO_N3": 728
+                "ISO_N3": 728,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -46167,7 +46508,15 @@
                 "SUBUNIT": "Sudan",
                 "SU_A3": "SDN",
                 "NAME": "Sudan",
-                "PARENTS": ["Egypt", "Libya", "Chad", "Central African Republic", "South Sudan", "Ethiopia", "Eritrea"],
+                "PARENTS": [
+                    "Egypt",
+                    "Libya",
+                    "Chad",
+                    "Central African Republic",
+                    "South Sudan",
+                    "Ethiopia",
+                    "Eritrea"
+                ],
                 "ABBREV": "Sudan",
                 "POSTAL": "SD",
                 "NAME_FORMA": "Republic of the Sudan",
@@ -47987,6 +48336,145 @@
         },
         {
             "type": "Feature",
+            "id": 201,
+            "properties": {
+                "ScaleRank": 1,
+                "LabelRank": 1,
+                "FeatureCla": "Admin-0 countries",
+                "SOVEREIGNT": "São Tomé and Príncipe",
+                "SOV_A3": "STP",
+                "ADM0_DIF": 0,
+                "LEVEL": 2,
+                "TYPE": "Sovereign country",
+                "ADMIN": "Sao Tome and Principe",
+                "ADM0_A3": "STP",
+                "GEOU_DIF": 0,
+                "GEOUNIT": "São Tomé and Príncipe",
+                "GU_A3": "STP",
+                "SU_DIF": 0,
+                "SUBUNIT": "Sao Tome and Principe",
+                "SU_A3": "STP",
+                "NAME": "São Tomé and Príncipe",
+                "PARENTS": [
+                    "Cameroon"
+                ],
+                "ABBREV": "S.T.P.",
+                "POSTAL": "ST",
+                "NAME_FORMA": "Democratic Republic of Sao Tome and Principe",
+                "TERR_": "",
+                "NAME_SORT": "Sao Tome and Principe",
+                "MAP_COLOR": 7,
+                "POP_EST": 212679,
+                "GDP_MD_EST": 276.5,
+                "FIPS_10_": 0,
+                "ISO_A2": "ST",
+                "ISO_A3": "STP",
+                "ISO_N3": 678
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                6.659987,
+                                0.120665
+                            ],
+                            [
+                                6.55684,
+                                0.047388
+                            ],
+                            [
+                                6.519737,
+                                0.066301
+                            ],
+                            [
+                                6.496999,
+                                0.117357
+                            ],
+                            [
+                                6.468164,
+                                0.227325
+                            ],
+                            [
+                                6.477569,
+                                0.280138
+                            ],
+                            [
+                                6.524284,
+                                0.34029
+                            ],
+                            [
+                                6.62588,
+                                0.400234
+                            ],
+                            [
+                                6.686962,
+                                0.404368
+                            ],
+                            [
+                                6.7498,
+                                0.325614
+                            ],
+                            [
+                                6.750007,
+                                0.243448
+                            ],
+                            [
+                                6.659987,
+                                0.120665
+                            ]
+                        ]
+                    ],
+                    [
+                        [
+                            [
+                                7.423868,
+                                1.567708
+                            ],
+                            [
+                                7.386661,
+                                1.54156
+                            ],
+                            [
+                                7.342426,
+                                1.563574
+                            ],
+                            [
+                                7.330643,
+                                1.603365
+                            ],
+                            [
+                                7.387591,
+                                1.680156
+                            ],
+                            [
+                                7.414463,
+                                1.699121
+                            ],
+                            [
+                                7.436993,
+                                1.68305
+                            ],
+                            [
+                                7.450429,
+                                1.661966
+                            ],
+                            [
+                                7.45229,
+                                1.631115
+                            ],
+                            [
+                                7.423868,
+                                1.567708
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "id": 222,
             "properties": {
                 "ScaleRank": 1,
@@ -48017,7 +48505,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "TZ",
                 "ISO_A3": "TZA",
-                "ISO_N3": 834
+                "ISO_N3": 834,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -49566,7 +50055,11 @@
                 "SUBUNIT": "Togo",
                 "SU_A3": "TGO",
                 "NAME": "Togo",
-                "PARENTS": ["Ghana", "Burkina Faso", "Benin"],
+                "PARENTS": [
+                    "Ghana",
+                    "Burkina Faso",
+                    "Benin"
+                ],
                 "ABBREV": "Togo",
                 "POSTAL": "TG",
                 "NAME_FORMA": "Togolese Republic",
@@ -50140,7 +50633,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "TN",
                 "ISO_A3": "TUN",
-                "ISO_N3": 788
+                "ISO_N3": 788,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -50936,7 +51430,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "UG",
                 "ISO_A3": "UGA",
-                "ISO_N3": 800
+                "ISO_N3": 800,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -51698,7 +52193,8 @@
                 "FIPS_10_": -99,
                 "ISO_A2": "-99",
                 "ISO_A3": "-99",
-                "ISO_N3": -99
+                "ISO_N3": -99,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -52656,7 +53152,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "ZM",
                 "ISO_A3": "ZMB",
-                "ISO_N3": 894
+                "ISO_N3": 894,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",
@@ -54206,7 +54703,8 @@
                 "FIPS_10_": 0,
                 "ISO_A2": "ZW",
                 "ISO_A3": "ZWE",
-                "ISO_N3": 716
+                "ISO_N3": 716,
+                "PARENTS": []
             },
             "geometry": {
                 "type": "Polygon",

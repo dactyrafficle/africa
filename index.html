@@ -9,7 +9,9 @@
 
 <script src="./r_box.js"></script>
 
-<div style="display: flex; flex-direction: row;">
+<!-- <p><a href="./processing.php"> processing </a><p> -->
+
+<div id="mainContainer" style="display: flex; flex-direction: row;">
 <div>
 <div id="container"></div>
 <div id="geometryNameOutputEl"></div>
@@ -23,7 +25,6 @@
 
 <script>
 
-// somaliland
 
 let ANIMATION;
 
@@ -46,31 +47,35 @@ window.addEventListener("load", function() {
     for (let i = 0; i < features.length; i++) {
       
       addGeometryMinMax(feature_=features[i]);
-      if (!features[i]["properties"]["PARENTS"]) {
-        features[i]["properties"]["PARENTS"] = ["Angola"];
-      }
-      /*
-      if (features[i]["properties"]["PARENTS"].length == 0) {
-        features[i]["properties"]["PARENTS"] = ["Angola"];
-      }
-      */
-      let div = document.createElement("div");
-      div.style.cursor = "default";
-      div.style.padding = "5px";
-      if (i%2 == 0) {
-        div.style.backgroundColor = "#2473";
-      }
-      myFeatureList.appendChild(div);
-      div.innerHTML = features[i]["properties"]["NAME"];
+
+      // START OF SIDEBAR
       
-      div.addEventListener("click", function() {
-         obj = features.filter(f => f["properties"]["NAME"] === features[i]["properties"]["NAME"])[0];
-         console.log(obj);
-         // phase = false;
-         abc(obj_=obj, phase_=false);
-         geometryNameOutputEl.innerHTML = obj["properties"]["NAME"];
-         phase = false;
-      }); // closing onclick
+
+      if (window.innerWidth < 500) {
+        myFeatureList.style.display = "none";
+      }
+      if (window.innerWidth > 500) {
+      
+        
+        let div = document.createElement("div");
+        div.style.cursor = "default";
+        div.style.padding = "5px";
+        if (i%2 == 0) {
+          div.style.backgroundColor = "#2473";
+        }
+        myFeatureList.appendChild(div);
+        div.innerHTML = features[i]["properties"]["NAME"];
+        
+        div.addEventListener("click", function() {
+           obj = features.filter(f => f["properties"]["NAME"] === features[i]["properties"]["NAME"])[0];
+           console.log(obj);
+           // phase = false;
+           abc(obj_=obj, phase_=false);
+           geometryNameOutputEl.innerHTML = obj["properties"]["NAME"];
+           phase = false;
+        }); // closing onclick
+      }
+      // END OF SIDEBAR
       
     }
 
@@ -78,8 +83,12 @@ window.addEventListener("load", function() {
     let box = new Box();
     let ctr = box.RETURN_CONTAINER();
     container.appendChild(ctr);
+    container.style.padding = "0px";
     
-    box.RESIZE(400, 400);
+    ctr.style.margin = "0px";
+    
+    console.log(window.innerWidth);
+    box.RESIZE(window.innerWidth*0.95, window.innerWidth*0.95);
     
     let phase;
 
