@@ -19,7 +19,7 @@
 <script src="./drawMultiPolygon.js"></script>
 
 
-<!-- <p id="processingLinkEl"><a href="./processing.php"> processing </a><p> -->
+<p id="processingLinkEl"><a href="./processing.php"> processing </a><p>
 
 <div id="mainContainer" style="display: flex; flex-direction: row;">
 <div>
@@ -68,7 +68,7 @@ window.addEventListener("load", function() {
 
       if (window.innerWidth < 500) {
         myFeatureList.style.display = "none";
-        // processingLinkEl.style.display = "none";
+        processingLinkEl.style.display = "none";
         box_width = window.innerWidth*0.95;
         box_height = window.innerWidth*0.95;
       }
@@ -367,7 +367,8 @@ function drawFeature(b_, feature_, selected_=false) {
   
   if (feature_["geometry"]["type"] == "Polygon") {
     
-    if (feature_["properties"]["TYPE"] == "Lake") {
+    let fPropType = feature_["properties"]["TYPE"];
+    if (fPropType == "Lake" || fPropType == "Sea") {
       drawPolygon(b_, feature_, obj_={
         "LINE_WIDTH":2,
         "FILL_STYLE":"#0099ff33",
