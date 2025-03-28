@@ -67,7 +67,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Angola",
@@ -137,7 +142,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"1",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Benin",
@@ -207,7 +217,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Blue Nile River",
@@ -230,7 +245,7 @@
   "Equatorial Guinea":"0",
   "Eritrea":"0",
   "Eswatini":"0",
-  "Ethiopia":"0",
+  "Ethiopia":"1",
   "Gabon":"0",
   "Ghana":"0",
   "Grand Ethiopian Renaissance Dam":"1",
@@ -277,7 +292,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Botswana",
@@ -347,7 +367,12 @@
   "Zimbabwe":"1",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Burkina Faso",
@@ -417,7 +442,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Burundi",
@@ -487,7 +517,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Cabo Verde",
@@ -557,7 +592,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Cameroon",
@@ -627,7 +667,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Central African Republic",
@@ -697,7 +742,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Chad",
@@ -767,7 +817,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Comoros",
@@ -837,7 +892,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Côte d'Ivoire",
@@ -907,7 +967,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Democratic Republic of the Congo",
@@ -977,7 +1042,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"1"
+  "Congo River":"1",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Djibouti",
@@ -1047,7 +1117,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Egypt",
@@ -1117,7 +1192,12 @@
   "Zimbabwe":"0",
   "Suez":"1",
   "Red Sea":"1",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Equatorial Guinea",
@@ -1187,7 +1267,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Eritrea",
@@ -1256,8 +1341,13 @@
   "Zambia":"0",
   "Zimbabwe":"0",
   "Suez":"0",
-  "Red Sea":"0",
-  "Congo River":"0"
+  "Red Sea":"1",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Eswatini",
@@ -1327,7 +1417,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Ethiopia",
@@ -1397,7 +1492,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Gabon",
@@ -1467,7 +1567,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Ghana",
@@ -1537,7 +1642,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Grand Ethiopian Renaissance Dam",
@@ -1607,7 +1717,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Guinea",
@@ -1677,7 +1792,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Guinea-Bissau",
@@ -1747,7 +1867,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Kenya",
@@ -1817,7 +1942,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"1",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Khartoum",
@@ -1887,7 +2017,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"1"
  },
  {
   "target":"Lake Tana",
@@ -1910,7 +2045,7 @@
   "Equatorial Guinea":"0",
   "Eritrea":"0",
   "Eswatini":"0",
-  "Ethiopia":"0",
+  "Ethiopia":"1",
   "Gabon":"0",
   "Ghana":"0",
   "Grand Ethiopian Renaissance Dam":"1",
@@ -1957,7 +2092,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Lake Victoria",
@@ -2027,7 +2167,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"1",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Lesotho",
@@ -2097,7 +2242,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Liberia",
@@ -2150,7 +2300,7 @@
   "Réunion":"0",
   "Senegal":"0",
   "Seychelles":"0",
-  "Sierra Leone":"0",
+  "Sierra Leone":"1",
   "Somalia":"0",
   "Somaliland":"0",
   "South Africa":"0",
@@ -2167,7 +2317,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Libya",
@@ -2225,7 +2380,7 @@
   "Somaliland":"0",
   "South Africa":"0",
   "South Sudan":"0",
-  "Sudan":"0",
+  "Sudan":"1",
   "São Tomé and Príncipe":"0",
   "Tanzania":"0",
   "The Gambia":"0",
@@ -2237,7 +2392,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Madagascar",
@@ -2307,7 +2467,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Malawi",
@@ -2377,7 +2542,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Mali",
@@ -2447,7 +2617,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Mauritania",
@@ -2517,7 +2692,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Mauritius",
@@ -2587,7 +2767,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Mayotte",
@@ -2657,7 +2842,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Morocco",
@@ -2727,7 +2917,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Mozambique",
@@ -2797,7 +2992,12 @@
   "Zimbabwe":"1",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"1",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Namibia",
@@ -2867,7 +3067,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Niger",
@@ -2937,7 +3142,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Nigeria",
@@ -3007,7 +3217,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Nile River",
@@ -3077,7 +3292,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Republic of the Congo",
@@ -3147,7 +3367,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Rwanda",
@@ -3217,7 +3442,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Réunion",
@@ -3287,7 +3517,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Senegal",
@@ -3357,7 +3592,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Seychelles",
@@ -3427,7 +3667,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Sierra Leone",
@@ -3497,7 +3742,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Somalia",
@@ -3567,7 +3817,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Somaliland",
@@ -3637,7 +3892,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"South Africa",
@@ -3707,7 +3967,12 @@
   "Zimbabwe":"1",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"South Sudan",
@@ -3765,7 +4030,7 @@
   "Somaliland":"0",
   "South Africa":"0",
   "South Sudan":"0",
-  "Sudan":"0",
+  "Sudan":"1",
   "São Tomé and Príncipe":"0",
   "Tanzania":"0",
   "The Gambia":"0",
@@ -3777,7 +4042,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Sudan",
@@ -3846,8 +4116,13 @@
   "Zambia":"0",
   "Zimbabwe":"0",
   "Suez":"0",
-  "Red Sea":"0",
-  "Congo River":"0"
+  "Red Sea":"1",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"São Tomé and Príncipe",
@@ -3917,7 +4192,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Tanzania",
@@ -3987,7 +4267,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"The Gambia",
@@ -4057,7 +4342,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Togo",
@@ -4127,7 +4417,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Tunisia",
@@ -4197,7 +4492,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Uganda",
@@ -4267,7 +4567,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"1",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Western Sahara",
@@ -4337,7 +4642,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Zambia",
@@ -4407,7 +4717,12 @@
   "Zimbabwe":"1",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Zimbabwe",
@@ -4477,7 +4792,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"1",
+  "White Nile":"0"
  },
  {
   "target":"Suez",
@@ -4547,7 +4867,12 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"1",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Red Sea",
@@ -4617,7 +4942,12 @@
   "Zimbabwe":"0",
   "Suez":"1",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  },
  {
   "target":"Congo River",
@@ -4687,6 +5017,386 @@
   "Zimbabwe":"0",
   "Suez":"0",
   "Red Sea":"0",
-  "Congo River":"0"
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
+ },
+ {
+  "target":"Nairobi",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
+ },
+ {
+  "target":"Kampala",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
+ },
+ {
+  "target":"Africa - South",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
+ },
+ {
+  "target":"Harare",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
+ },
+ {
+  "target":"White Nile",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0"
  }
 ]
