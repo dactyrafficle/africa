@@ -72,7 +72,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Angola",
@@ -147,7 +150,10 @@
   "Kampala":"0",
   "Africa - South":"1",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Benin",
@@ -222,7 +228,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Blue Nile River",
@@ -297,7 +306,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"1",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Botswana",
@@ -372,7 +384,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Burkina Faso",
@@ -447,7 +462,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Burundi",
@@ -522,7 +540,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Cabo Verde",
@@ -597,7 +618,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Cameroon",
@@ -672,7 +696,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Central African Republic",
@@ -747,7 +774,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Chad",
@@ -822,7 +852,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Comoros",
@@ -897,7 +930,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Côte d'Ivoire",
@@ -972,7 +1008,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Democratic Republic of the Congo",
@@ -1047,7 +1086,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Djibouti",
@@ -1122,7 +1164,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Egypt",
@@ -1197,7 +1242,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Equatorial Guinea",
@@ -1272,7 +1320,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Eritrea",
@@ -1347,7 +1398,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Eswatini",
@@ -1422,7 +1476,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Ethiopia",
@@ -1497,7 +1554,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Gabon",
@@ -1572,7 +1632,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Ghana",
@@ -1647,7 +1710,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Grand Ethiopian Renaissance Dam",
@@ -1722,7 +1788,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Guinea",
@@ -1797,7 +1866,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Guinea-Bissau",
@@ -1872,7 +1944,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Kenya",
@@ -1947,7 +2022,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Khartoum",
@@ -2022,7 +2100,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"1"
+  "White Nile":"1",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Lake Tana",
@@ -2097,7 +2178,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Lake Victoria",
@@ -2172,7 +2256,10 @@
   "Kampala":"1",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"1",
+  "Lake Tanganyika":"1",
+  "Lake Albert":"1",
+  "Benghazi":"0"
  },
  {
   "target":"Lesotho",
@@ -2247,7 +2334,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Liberia",
@@ -2322,7 +2412,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Libya",
@@ -2397,7 +2490,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"1"
  },
  {
   "target":"Madagascar",
@@ -2472,7 +2568,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Malawi",
@@ -2547,7 +2646,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Mali",
@@ -2622,7 +2724,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Mauritania",
@@ -2697,7 +2802,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Mauritius",
@@ -2772,7 +2880,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Mayotte",
@@ -2847,7 +2958,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Morocco",
@@ -2922,7 +3036,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Mozambique",
@@ -2997,7 +3114,10 @@
   "Kampala":"0",
   "Africa - South":"1",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Namibia",
@@ -3072,7 +3192,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Niger",
@@ -3147,7 +3270,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Nigeria",
@@ -3222,7 +3348,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Nile River",
@@ -3297,7 +3426,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Republic of the Congo",
@@ -3372,7 +3504,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Rwanda",
@@ -3447,7 +3582,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Réunion",
@@ -3522,7 +3660,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Senegal",
@@ -3597,7 +3738,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Seychelles",
@@ -3672,7 +3816,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Sierra Leone",
@@ -3747,7 +3894,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Somalia",
@@ -3802,7 +3952,7 @@
   "Seychelles":"0",
   "Sierra Leone":"0",
   "Somalia":"0",
-  "Somaliland":"0",
+  "Somaliland":"1",
   "South Africa":"0",
   "South Sudan":"0",
   "Sudan":"0",
@@ -3822,7 +3972,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Somaliland",
@@ -3876,7 +4029,7 @@
   "Senegal":"0",
   "Seychelles":"0",
   "Sierra Leone":"0",
-  "Somalia":"0",
+  "Somalia":"1",
   "Somaliland":"0",
   "South Africa":"0",
   "South Sudan":"0",
@@ -3897,7 +4050,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"South Africa",
@@ -3972,7 +4128,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"South Sudan",
@@ -4047,7 +4206,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Sudan",
@@ -4122,7 +4284,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"São Tomé and Príncipe",
@@ -4197,7 +4362,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Tanzania",
@@ -4272,7 +4440,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"1",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"The Gambia",
@@ -4347,7 +4518,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Togo",
@@ -4422,7 +4596,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Tunisia",
@@ -4497,7 +4674,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Uganda",
@@ -4572,7 +4752,10 @@
   "Kampala":"1",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"1",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Western Sahara",
@@ -4647,7 +4830,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Zambia",
@@ -4722,7 +4908,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Zimbabwe",
@@ -4797,7 +4986,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"1",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Suez",
@@ -4872,7 +5064,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Red Sea",
@@ -4947,7 +5142,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Congo River",
@@ -5020,9 +5218,12 @@
   "Congo River":"0",
   "Nairobi":"0",
   "Kampala":"0",
-  "Africa - South":"0",
+  "Africa - South":"1",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Nairobi",
@@ -5097,7 +5298,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Kampala",
@@ -5172,7 +5376,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Africa - South",
@@ -5247,7 +5454,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"Harare",
@@ -5322,7 +5532,10 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  },
  {
   "target":"White Nile",
@@ -5397,6 +5610,243 @@
   "Kampala":"0",
   "Africa - South":"0",
   "Harare":"0",
-  "White Nile":"0"
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"1",
+  "Benghazi":"0"
+ },
+ {
+  "target":"Lake Tanganyika",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"1",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
+ },
+ {
+  "target":"Lake Albert",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
+ },
+ {
+  "target":"Benghazi",
+  "Algeria":"0",
+  "Angola":"0",
+  "Benin":"0",
+  "Blue Nile River":"0",
+  "Botswana":"0",
+  "Burkina Faso":"0",
+  "Burundi":"0",
+  "Cabo Verde":"0",
+  "Cameroon":"0",
+  "Central African Republic":"0",
+  "Chad":"0",
+  "Comoros":"0",
+  "Côte d'Ivoire":"0",
+  "Democratic Republic of the Congo":"0",
+  "Djibouti":"0",
+  "Egypt":"0",
+  "Equatorial Guinea":"0",
+  "Eritrea":"0",
+  "Eswatini":"0",
+  "Ethiopia":"0",
+  "Gabon":"0",
+  "Ghana":"0",
+  "Grand Ethiopian Renaissance Dam":"0",
+  "Guinea":"0",
+  "Guinea-Bissau":"0",
+  "Kenya":"0",
+  "Khartoum":"0",
+  "Lake Tana":"0",
+  "Lake Victoria":"0",
+  "Lesotho":"0",
+  "Liberia":"0",
+  "Libya":"0",
+  "Madagascar":"0",
+  "Malawi":"0",
+  "Mali":"0",
+  "Mauritania":"0",
+  "Mauritius":"0",
+  "Mayotte":"0",
+  "Morocco":"0",
+  "Mozambique":"0",
+  "Namibia":"0",
+  "Niger":"0",
+  "Nigeria":"0",
+  "Nile River":"0",
+  "Republic of the Congo":"0",
+  "Rwanda":"0",
+  "Réunion":"0",
+  "Senegal":"0",
+  "Seychelles":"0",
+  "Sierra Leone":"0",
+  "Somalia":"0",
+  "Somaliland":"0",
+  "South Africa":"0",
+  "South Sudan":"0",
+  "Sudan":"0",
+  "São Tomé and Príncipe":"0",
+  "Tanzania":"0",
+  "The Gambia":"0",
+  "Togo":"0",
+  "Tunisia":"0",
+  "Uganda":"0",
+  "Western Sahara":"0",
+  "Zambia":"0",
+  "Zimbabwe":"0",
+  "Suez":"0",
+  "Red Sea":"0",
+  "Congo River":"0",
+  "Nairobi":"0",
+  "Kampala":"0",
+  "Africa - South":"0",
+  "Harare":"0",
+  "White Nile":"0",
+  "Lake Tanganyika":"0",
+  "Lake Albert":"0",
+  "Benghazi":"0"
  }
 ]
