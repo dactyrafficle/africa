@@ -79,11 +79,19 @@ function drawFeature(b_, feature_, isCurrentFeature=false, zoomLevel) {
     let fPropType = feature_["properties"]["TYPE"];
     
     if (fPropType == "Outline") {
+      
+      drawPolygon(b_, feature_, obj_={
+        "LINE_WIDTH":0,
+        "FILL_STYLE":"#ffffffff",
+        "STROKE_STYLE":"#0000"
+      }, zoomLevel);
+      
       drawPolygon(b_, feature_, obj_={
         "LINE_WIDTH":1,
-        "FILL_STYLE":"#0000",
+        "FILL_STYLE":"#00770005",
         "STROKE_STYLE":"#000f"
       }, zoomLevel);
+      
       return;
     }
     

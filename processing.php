@@ -58,6 +58,10 @@
   // make a copy
   file_put_contents("./_other/africa_". time() .".geojson", json_encode($FeatureCollection, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
+
+  $featureCenters = file_exists("./feature_centers.json") ? json_decode(file_get_contents("./feature_centers.json"), true) : [];
+  // print_r($featureCenters);
+
   $features = $FeatureCollection["features"];
   
   $featureProperties = array_column($features, 'properties');
@@ -86,10 +90,17 @@
       $feature["geometry"]["defaults"]["center"] = array(0, 0);
     }
     
+
     if ($feature["geometry"]["defaults"]["center"] == [0,0]) {
       $feature["geometry"]["defaults"]["center"] = array(27.5, -5);
     }
     
+    for ($i = 0; $i < count($featureCenters); $i++) {
+      if ($featureName == $featureCenters[$i][0]) {
+        $feature["geometry"]["defaults"]["center"] = array($featureCenters[$i][1], $featureCenters[$i][2]);
+        $feature["geometry"]["defaults"]["zoom"] = $featureCenters[$i][3];
+      }
+    }
     
     
     if (isset($bordersObj2[$featureName])) {

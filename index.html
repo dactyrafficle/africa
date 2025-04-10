@@ -24,8 +24,7 @@
 
 <div id="programmingCommentsEl" style="border: 1px solid black; margin: 5px; padding: 5px;">
 <p><a href="./processing.php"> processing </a><p>
-<p> gets data from africa.geojson, makes a copy, adds a timestamp and puts it in /others/, then it adds "PARENTS":[] data using borders.json and sorts and makes the file pretty </p>
-<p> in v02, i will give each feature a coordinate around which it will be centered, and a zoom value ["geometry"]["defaults"]["zoom"] and ["geometry"]["defaults"]["center"] = [lon,lat] </p>
+<p> gets data from "africa.geojson", makes a copy, adds a timestamp and puts it in "./others/", then for each feature, it adds "PARENTS":[] data using "./borders.json" and sorts and makes the file pretty. then each feature gets a coordinate around which it will be centered, and a zoom value ["geometry"]["defaults"]["zoom"] and ["geometry"]["defaults"]["center"] = [lon,lat]. it gets that from the file "./feature_centers.json" which is [[],[]], where each element is [name, lon, lat, zoom] </p>
 </div>
 
 <div id="mainContainer" style="display: flex; flex-direction: row;">

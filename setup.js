@@ -57,16 +57,23 @@ window.addEventListener("load", function() {
     console.log("START");
     console.log(indices);
     
+    /*
     // essential part of initialization
+    let output = [];
     for (let i = 0; i < features.length; i++) {  
-      addGeometryMinMax(feature_=features[i]);
+      let o_ = addGeometryMinMax(feature_=features[i]);
+      output.push([features[i]["properties"]["NAME"], o_.clon, o_.clat, 5]);
     }
+    console.log(JSON.stringify(output));
+    */
+    
     
     // START THE SIDEBAR
     for (let i = 0; i < features.length; i++) {
       
       let featureName = features[i]["properties"]["NAME"];
       let div = document.createElement("div");
+      div.classList.add("noselect");
       div.innerHTML = featureName;
       
       div.style.cursor = "default";
@@ -81,7 +88,7 @@ window.addEventListener("load", function() {
         currentFeature = features.filter(f => f["properties"]["NAME"] === featureName)[0];
         console.log(currentFeature);
         
-        CALC_RANGES();
+        // CALC_RANGES();
         box.CLEAR_CANVAS();
         REDRAW_CURRENT_FEATURE();
 
@@ -117,7 +124,9 @@ window.addEventListener("load", function() {
     
     container.appendChild(ctr);
     container.style.padding = "0px";
-
+    
+    box.RESIZE(box_width, box_height);
+    
     index = indices.splice(0,1)[0];
     currentFeature = features[index];
     
@@ -126,8 +135,8 @@ window.addEventListener("load", function() {
     currentFeature = features.filter(f => f["properties"]["NAME"] === name)[0];
     */
     
-    box.RESIZE(box_width, box_height);
-    CALC_RANGES();
+    
+    // CALC_RANGES();
     box.CLEAR_CANVAS();
     REDRAW_CURRENT_FEATURE();
     
@@ -166,7 +175,7 @@ window.addEventListener("load", function() {
       index = indices.splice(0,1)[0];
       currentFeature = features[index];
 
-      CALC_RANGES();
+      // CALC_RANGES();
       box.CLEAR_CANVAS();
       REDRAW_CURRENT_FEATURE();
       
@@ -183,7 +192,7 @@ window.addEventListener("load", function() {
 
 
 
-
+/*
 function CALC_RANGES() {
   
   let displayRange = {
@@ -230,9 +239,11 @@ function CALC_RANGES() {
   box.RANGE_Y(displayRange.yDisplayRangeMin, displayRange.yDisplayRangeMax);
   
 }; // closing fn
-
+*/
 
 function REDRAW_CURRENT_FEATURE() {
+  
+  
   
   let zoomLevel = currentFeature["geometry"]["defaults"]["zoom"];
   console.log(zoomLevel);
@@ -242,40 +253,34 @@ function REDRAW_CURRENT_FEATURE() {
   
   console.log([cx,cy]);
   
+  /*
   let pixelWidth = mercX(lon_=-180, zoomx_=zoomLevel) - mercX(lon_=180, zoomx_=zoomLevel);
   let pixelHeight = mercY(lat_=89, zoomy_=zoomLevel) - mercY(lat_=-89, zoomy_=zoomLevel);
   
   let boxWidth = box.data.dimension.w;
   let boxHeight = box.data.dimension.h;
+  */
   
-  box.RANGE_X(cx-boxWidth/2, cx+boxWidth/2);
-  box.RANGE_Y(cy-boxHeight/2, cy+boxHeight/2);
+  box.RANGE_X(cx-350, cx+350);
+  box.RANGE_Y(cy-350, cy+350);
   
-  box.RADIUS(3);
-  box.POINT({
-    "x":cx,
-    "y":cy
-  });
-  /*
-  box.CONNECT_VALUES([
-    {"x":box.data.range.x.min,"y":cy},
-    {"x":box.data.range.x.max,"y":cy}
+  box.FILL_STYLE("#e6f2ffaa");
+  box.RECT([
+  {"x":cx-350,"y":cy-350},
+  {"x":cx+350,"y":cy-350},
+  {"x":cx+350,"y":cy+350},
+  {"x":cx-350,"y":cy+350}
   ]);
-  */
   
-  /*
-  box.CONNECT_VALUES([
-    {"x":cx,"y":box.data.range.y.min},
-    {"x":cx,"y":box.data.range.y.max}
-  ]);
-  */
-  
-  /*
-  box.RANGE_X( mercX(lon_=-180, zoomx_=zoomLevel), mercX(lon_=180, zoomx_=zoomLevel) );
-  box.RANGE_Y( mercY(lat_=-89, zoomy_=zoomLevel), mercY(lat_=89, zoomy_=zoomLevel) );
-  console.log("x : " + box.data.range.x.min + " : " + box.data.range.x.max);
-  console.log("y : " + box.data.range.y.min + " : " + box.data.range.y.max);
-  */
+  box.FILL_STYLE("#33ccff33");
+  for (let y = (cy-350); y < (cy+350*1.1); y+=50) {
+    for (let x = (cx-350); x < (cx+350*1.1); x+=50) {
+      box.POINT({
+        "x":x,
+        "y":y
+      });
+    }
+  }
   
   // ADD OUTLINE OF AFRICA
   africaOutline = features.filter(f => f["properties"]["NAME"] === "Africa_Outline")[0];
@@ -302,28 +307,25 @@ function REDRAW_CURRENT_FEATURE() {
 
 function addGeometryMinMax(feature_) {
   
+  let obj = {};
+  
   if (feature_["geometry"]["type"] == "Polygon") {
-    minMaxPolygon(feature_);
+    obj = minMaxPolygon(feature_);
   } // closing if-Polygon
   
   if (feature_["geometry"]["type"] == "MultiPolygon") {
-    minMaxMultiPolygon(feature_);
+    obj = minMaxMultiPolygon(feature_);
   }
   
   if (feature_["geometry"]["type"] == "Point") {
-    minMaxPoint(feature_);
+    obj = minMaxPoint(feature_);
   }
 
   if (feature_["geometry"]["type"] == "LineString") {
-    minMaxLineString(feature_);
+    obj = minMaxLineString(feature_);
   }
   
-  // feature_.zoomLevel = 3.1;
-  
-  // feature_.cx = mercX(lon_=feature_.geometry.defaults.center[0], zoomx_=feature_.geometry.defaults.zoom); // (feature_.xmax - feature_.xmin)/2;
-  // feature_.cy = mercY(lat_=feature_.geometry.defaults.center[1], zoomy_=feature_.geometry.defaults.zoom); // (feature_.ymax - feature_.ymin)/2;
-  
-  
+  return obj;
 }; // closing fn
 
 

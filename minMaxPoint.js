@@ -9,5 +9,15 @@ function minMaxPoint(feature_) {
   feature_.xmax = x;
   feature_.ymin = y;
   feature_.ymax = y;
-  return;  
+  
+  let obj = {
+    "lon_min":coordinates[0],
+    "lon_max":coordinates[0],
+    "lat_min":coordinates[1],
+    "lat_max":coordinates[1]
+  };
+  
+  obj.clon = (obj.lon_max + obj.lon_min)/2;
+  obj.clat = (obj.lat_max + obj.lat_min)/2;
+  return obj;
 }; // closing fn
