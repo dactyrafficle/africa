@@ -2,7 +2,7 @@
 
 function minMaxMultiPolygon(feature_) {
   
-  let zoomLevel = 2;
+  let zoomLevel = feature_["zoomLevel"];
   let points = [];
 
   feature_.xmin = 99999;

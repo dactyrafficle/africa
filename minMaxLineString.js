@@ -2,7 +2,7 @@
 
 function minMaxLineString(feature_) {
   
-  let zoomLevel = 2;
+  let zoomLevel = feature_["zoomLevel"];
 
   feature_.xmin = 99999;
   feature_.xmax = -9999;

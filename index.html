@@ -21,17 +21,17 @@
 
 <script src="./setup.js"></script>
 
-<!--
-<div style="border: 1px solid black; margin: 5px; padding: 5px;">
-<p id="processingLinkEl"><a href="./processing.php"> processing </a><p>
+
+<div id="programmingCommentsEl" style="border: 1px solid black; margin: 5px; padding: 5px;">
+<p><a href="./processing.php"> processing </a><p>
 <p> gets data from africa.geojson, makes a copy, adds a timestamp and puts it in /others/, then it adds "PARENTS":[] data using borders.json and sorts and makes the file pretty </p>
+<p> in v02, i will give each feature a coordinate around which it will be centered, and a zoom value ["geometry"]["defaults"]["zoom"] and ["geometry"]["defaults"]["center"] = [lon,lat] </p>
 </div>
--->
 
 <div id="mainContainer" style="display: flex; flex-direction: row;">
 <div>
 <div id="container"></div>
-<div id="geometryNameOutputEl"></div>
+<div id="geometryNameOutputEl" style="border: 1px solid #247a; margin: 5px; padding: 5px;"></div>
 </div>
 <!-- 
 <div id="myPauseBtn">pause</div>
